@@ -1,70 +1,71 @@
 :root {
-    --text-color: #667085;
-    --main-color: #8E2424;
-    --text-button: #FFF;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    height: 100vh;
-  }
+  --text-color: #667085;
+  --main-color: #8E2424;
+  --text-button: #FFF;
+  --secondary-color: rgba(142, 36, 36, 0.05);
+}
 
-  /* Navbar */
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 0;
-  }
-  
-  .links a {
-    color: var(--text-color);
-    text-decoration: none;
-    margin-right: 2rem;
-  }
-  
-  button {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    background: none;
-    color: var(--text-color);
-    font-size: 0.9rem;
-  }
-  
-  button#signUp {
-    background-color: var(--main-color);
-    color: var(--text-button);
-  }
-  
-  /*about us*/
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: var(--main-color);
+  color: var(--text-button);
+}
+
+/*about us*/
+
 .about-us {
-    padding: 7rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
 .about-us span {
-    color: var(--main-color);
-    font-weight: 600;
-    font-size: 16px;
-  }
-  
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+
 .about-us h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .about-us p {
@@ -104,8 +105,68 @@
   padding: 0.75rem 0 0.50rem 0;
 }
 
-.metricas-container__suportingText{
+.metricas-container__suportingText {
   font-weight: 400;
   font-size: 16px;
   color: var(--text-color);
+}
+
+/*vagas*/
+
+.vagas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.vagas__talentos {
+  padding: 6rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.vagas__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vagas__texto span {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+
+  padding: 4px 12px;
+
+  background: var(--secondary-color);
+  border-radius: 16px;
+
+}
+
+.vagas__texto h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  padding: 20px 0;
+
+}
+
+.vagas__texto p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+.vagas div img {
+  width: 100%;
+}
+
+.vagas__areas{
+  
 }
