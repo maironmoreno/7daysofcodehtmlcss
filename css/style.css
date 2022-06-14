@@ -6,7 +6,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
@@ -77,7 +77,7 @@ button#signUp {
 
 /*metricas*/
 
-.metricas-container {
+.metricas_container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -85,13 +85,13 @@ button#signUp {
   gap: 2rem;
 }
 
-.metricas-container div {
+.metricas_container div {
   align-items: justify;
   padding: 0px;
   width: 280px;
 }
 
-.metricas-container span {
+.metricas_container span {
   font-weight: 600;
   font-size: 60px;
   line-height: 72px;
@@ -99,13 +99,13 @@ button#signUp {
   letter-spacing: -0.02em;
 }
 
-.metricas-container__Text {
+.metricas_container__Text {
   font-weight: 500;
   font-size: 18px;
   padding: 0.75rem 0 0.50rem 0;
 }
 
-.metricas-container__suportingText {
+.metricas_container__suportingText {
   font-weight: 400;
   font-size: 16px;
   color: var(--text-color);
@@ -117,14 +117,10 @@ button#signUp {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 5rem;
 }
 
 .vagas__talentos {
-  padding: 6rem 5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 6rem 5rem 2rem 5rem;
   gap: 2rem;
 }
 
@@ -132,6 +128,7 @@ button#signUp {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 0 4rem 0;
 }
 
 .vagas__texto span {
@@ -167,6 +164,50 @@ button#signUp {
   width: 100%;
 }
 
-.vagas__areas{
+.vagas__abertas{
+  width: 50%;
+  gap: 2rem;
+}
+
+.vagas__abertas h2 {
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
   
+}
+
+.vaga{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  
+}
+
+.titulo-vaga {
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 2rem;
+}
+
+.informacoes  {
+  width: 100%;
+  gap: 50px;
+}
+
+.informacoes span{
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  margin-right: 2rem;
 }
